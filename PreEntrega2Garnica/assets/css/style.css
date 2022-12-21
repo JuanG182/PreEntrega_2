@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.texto-explicacion{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:auto;
+    gap: 5px;
+    grid-template-areas: "main main"
+                         "main main";
+}
+
+.sierras:hover{
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+.logon:hover{
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+.info-ubicacion{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    gap: 5px;
+    grid-template-areas: "main main"
+                         "main main";
+}
+
+.formulario{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:auto;
+    gap: 5px;
+    grid-template-areas: "main main"
+                         "main main"
+                         "main main"
+                         "main main";
+}
